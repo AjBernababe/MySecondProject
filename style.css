@@ -1,63 +1,66 @@
 @font-face {
     font-family: roboto;
-    font-size: 18px;
     src: url(./roboto.ttf);
 }
 
-* {
+html {
     box-sizing: border-box;
     font-family: roboto, Helvetica, sans-serif;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
+
     margin: 0;
+    padding: 0;
 }
 
 .header {
     position: sticky;
     top: 0;
-    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 300px;
+    padding: 0.5rem 10vw;
     background-color: #1f2937;
     color: white;
+    flex-wrap: wrap;
 }
 
 .logo {
-    width: 50px;
+    width: 3rem;
 }
 
 .right-header {
     display: flex;
-    gap: 30px;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
 }
 
 a {
-    font-size: 20px;
+    font-size: 1.3rem;
     text-decoration: none;
     color: white;
 }
 
 .first-part {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 50px 300px;
+    padding: 4rem 10vw;
     background-color: #1f2937;
     color: white;
-    gap: 20px;
+    gap: 2rem;
+    flex-wrap: wrap;
+
 }
 
 .left-first {
-    flex: 1.5;
+    max-width: 60ch;
 }
 
 .right-first {
-    flex: 2;
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,28 +68,28 @@ a {
 }
 
 .title-first {
-    font-size: 50px;
+    font-size: 3rem;
     font-weight: bolder;
     margin: 0;
 }
 
 .content-first {
-    font-size: 18px;
+    font-size: 1.2rem;
 }
 
 .button-first {
     background-color: #3882f6;
     color: white;
     font-weight: bold;
-    font-size: 15px;
-    padding: 10px 30px;
+    font-size: 1rem;
+    padding: .5em 1em;
     border-radius: 7px;
     border: 0;
 }
 
 .photo-first {
     border-radius: 10px;
-    height: 500px;
+    width: 100%;
 }
 
 .second-part {
@@ -94,21 +97,22 @@ a {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 300px;
+    padding: 4rem 10vw;
 }
 
 .title-second {
     text-align: center;
-    font-size: 40px;
+    font-size: 3rem;
     font-weight: bolder;
-    padding-bottom: 50px;
+    padding-bottom: 4rem;
 }
 
 .selections {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .icon {
@@ -130,7 +134,7 @@ a {
 
 .third-part {
     background-color: #E5E7EB;
-    padding: 50px 300px;
+    padding: 4rem 10vw;
 }
 
 .quote {
@@ -147,7 +151,7 @@ a {
 
 .fourth-part{
     display: flex;
-    padding: 50px 300px;
+    padding: 4rem 10vw;
     justify-content: center;
     align-items: center;
 }
@@ -177,8 +181,8 @@ a {
     background-color: #3882f6;
     color: white;
     font-weight: bold;
-    font-size: 15px;
-    padding: 10px 30px;
+    font-size: 1rem;
+    padding: .5em 1em;
     border-radius: 7px;
     border: solid white 2px;
 }
@@ -187,8 +191,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
+    font-size: 1.3rem;
     background-color: #1f2937;
     color: white;
-    height: 74.906px;
+    padding: .5rem 10vw;
 }
