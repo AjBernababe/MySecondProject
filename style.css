@@ -9,7 +9,6 @@ html {
 }
 
 body {
-
     margin: 0;
     padding: 0;
 }
@@ -30,7 +29,7 @@ body {
     width: 3rem;
 }
 
-.right-header {
+.navlinks {
     display: flex;
     gap: 2rem;
     justify-content: center;
@@ -38,43 +37,40 @@ body {
 }
 
 a {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-decoration: none;
     color: white;
 }
 
 .first-part {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 4rem 10vw;
     background-color: #1f2937;
     color: white;
-    gap: 2rem;
     flex-wrap: wrap;
 
 }
 
 .left-first {
-    max-width: 60ch;
+    width: 60ch;
 }
 
-.right-first {
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    outline: auto;
+.wallpaper {
+    border-radius: 20px;
+    max-width: 900px;
 }
 
 .title-first {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bolder;
     margin: 0;
+    padding: 0;
 }
 
 .content-first {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .button-first {
@@ -82,54 +78,39 @@ a {
     color: white;
     font-weight: bold;
     font-size: 1rem;
-    padding: .5em 1em;
-    border-radius: 7px;
+    padding: .5rem 1rem;
+    border-radius: 10px;
     border: 0;
 }
 
-.photo-first {
-    border-radius: 10px;
-    width: 100%;
-}
-
 .second-part {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
     padding: 4rem 10vw;
 }
 
 .title-second {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bolder;
     padding-bottom: 4rem;
 }
 
 .selections {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 2rem;
     flex-wrap: wrap;
 }
 
-.icon {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .photo-second {
-    border-radius: 10px;
-    width: 300px;
-    height: 300px;
+    border-radius: 20px;
+    width: 350px;
+    height: 350px;
 }
 
 .content-second {
     text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
 .third-part {
@@ -138,7 +119,7 @@ a {
 }
 
 .quote {
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: lighter;
     font-style: italic;
 }
@@ -146,14 +127,11 @@ a {
 .author {
     text-align: end;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 .fourth-part{
-    display: flex;
     padding: 4rem 10vw;
-    justify-content: center;
-    align-items: center;
 }
 
 .card {
@@ -164,17 +142,20 @@ a {
     background-color: #3882f6;
     color: white;
     border-radius: 7px;
-    padding: 50px 100px;
+    padding: 3rem 5vw;
+    flex-wrap: wrap;
 }
 
 .title-fourth {
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: bold;
     margin: 0;
+    padding-bottom: 5px;
 }
 
 .content-fourth {
     margin: 0;
+    max-width: 100ch;
 }
 
 .button-fourth {
@@ -183,7 +164,7 @@ a {
     font-weight: bold;
     font-size: 1rem;
     padding: .5em 1em;
-    border-radius: 7px;
+    border-radius: 10px;
     border: solid white 2px;
 }
 
@@ -191,7 +172,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     background-color: #1f2937;
     color: white;
     padding: .5rem 10vw;
