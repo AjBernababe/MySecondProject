@@ -1,1 +1,0 @@
-alert("Welcome to this dumb landing page! TEST");
